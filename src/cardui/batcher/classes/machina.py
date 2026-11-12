@@ -76,7 +76,7 @@ class Machina:
                 return f"Authentication failed: {e}"
 
         elif self.model_provider == "mistral":
-            from mistralai import Mistral
+            from mistralai.client import Mistral
             self.client = Mistral(api_key=api_key)
 
             try:
