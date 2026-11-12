@@ -4,6 +4,6 @@ openai
 rapidfuzz
 tqdm
 anthropic
-mistralai
+mistralai>=2
 google-genai
 rapidfuzz
